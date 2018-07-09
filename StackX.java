@@ -28,4 +28,8 @@
 		
 	}
 
+	public void peek(){
+		System.out.println(“Current Peek. :: element Number :  ”+topValue+” Element Value(Peek ). :”+stackArray[topValue]);
+	}
+
 }
