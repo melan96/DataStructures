@@ -15,4 +15,10 @@
 		
 	}
 
+	public void push(double value){
+
+		topValue++;
+		stackArray[topValue]=value;
+	}
+
 }
