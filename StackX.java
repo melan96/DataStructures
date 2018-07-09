@@ -21,4 +21,11 @@
 		stackArray[topValue]=value;
 	}
 
+	public void pop(){
+
+		stackArray[—topValue]=null;
+		
+		
+	}
+
 }
