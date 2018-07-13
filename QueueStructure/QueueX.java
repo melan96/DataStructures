@@ -54,4 +54,28 @@ public class QueueX{
 			System.out.println("Peek Value  :"+queueList[front]);
 		}
 	}
+
+	public boolean isEmpty(){
+		if(queueCurrentSize=0){
+			return true;
+		}else{
+			return false;
+		}
+
+
+	public boolean isFull(){
+
+		if(queueCurrentSize == queueMaxSize){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	}
+
+
+
+
+
+
 }
