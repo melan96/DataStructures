@@ -17,8 +17,19 @@
 
 	public void push(double value){
 
-		topValue++;
-		stackArray[topValue]=value;
+		
+		stackArray[++topValue]=value;
+	}
+
+	public void pop(){
+
+		stackArray[—topValue]=null;
+		
+		
+	}
+
+	public void peek(){
+		System.out.println(“Current Peek. :: element Number :  ”+topValue+” Element Value(Peek ). :”+stackArray[topValue]);
 	}
 
 }
